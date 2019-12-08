@@ -1,0 +1,33 @@
+server:
+    port: 8080
+
+# 启用调试日志。
+debug: false
+
+
+# 启用跟踪日志。
+trace: false
+
+
+
+
+
+# 日志
+logging:
+    config:
+        classpath: logback.xml
+    file: property.log
+    file.max-size: 10MB
+    path: /var/log
+
+
+# 使用thymeleaf模板
+spring:
+    thymeleaf:
+        cache: false
+        check-template-location: 'true'
+        content-type: 'text/html '
+        encoding: 'UTF-8'
+        mode: 'HTML5'
+        prefix: 'classpath:/view/templates/'
+        suffix: '.html'

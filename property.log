@@ -1,0 +1,62 @@
+2019-12-06 14:04:52.503  INFO 10592 --- [restartedMain] com.canon.base.run.Main                  : Starting Main on 755DDC025774 with PID 10592 (E:\IDEA_WK\project_test\five-bitch\target\classes started by 0227544 in E:\IDEA_WK\project_test\five-bitch)
+2019-12-06 14:04:52.506  INFO 10592 --- [restartedMain] com.canon.base.run.Main                  : No active profile set, falling back to default profiles: default
+2019-12-06 14:04:52.561  INFO 10592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-06 14:04:52.561  INFO 10592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-06 14:04:53.682  INFO 10592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-12-06 14:04:53.706  INFO 10592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 14:04:53.706  INFO 10592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-06 14:04:53.794  INFO 10592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 14:04:53.795  INFO 10592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1234 ms
+2019-12-06 14:04:54.118  INFO 10592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 14:04:54.238  WARN 10592 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-12-06 14:04:54.391  INFO 10592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-06 14:04:54.436  INFO 10592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-06 14:04:54.440  INFO 10592 --- [restartedMain] com.canon.base.run.Main                  : Started Main in 2.471 seconds (JVM running for 2.957)
+2019-12-06 14:05:20.072  INFO 12400 --- [restartedMain] com.canon.base.run.Main                  : Starting Main on 755DDC025774 with PID 12400 (E:\IDEA_WK\project_test\five-bitch\target\classes started by 0227544 in E:\IDEA_WK\project_test\five-bitch)
+2019-12-06 14:05:20.075  INFO 12400 --- [restartedMain] com.canon.base.run.Main                  : No active profile set, falling back to default profiles: default
+2019-12-06 14:05:20.117  INFO 12400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-06 14:05:20.117  INFO 12400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-06 14:05:21.283  INFO 12400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-12-06 14:05:21.307  INFO 12400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 14:05:21.307  INFO 12400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-06 14:05:21.408  INFO 12400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 14:05:21.408  INFO 12400 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1290 ms
+2019-12-06 14:05:21.655  INFO 12400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 14:05:21.789  WARN 12400 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-12-06 14:05:21.996  INFO 12400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-06 14:05:22.081  INFO 12400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-06 14:05:22.088  INFO 12400 --- [restartedMain] com.canon.base.run.Main                  : Started Main in 2.537 seconds (JVM running for 3.054)
+2019-12-06 14:08:34.168  INFO 5608 --- [restartedMain] com.canon.base.run.Main                  : Starting Main on 755DDC025774 with PID 5608 (E:\IDEA_WK\project_test\five-bitch\target\classes started by 0227544 in E:\IDEA_WK\project_test\five-bitch)
+2019-12-06 14:08:34.170  INFO 5608 --- [restartedMain] com.canon.base.run.Main                  : No active profile set, falling back to default profiles: default
+2019-12-06 14:08:34.233  INFO 5608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-06 14:08:34.233  INFO 5608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-06 14:08:35.428  INFO 5608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-12-06 14:08:35.458  INFO 5608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 14:08:35.458  INFO 5608 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-06 14:08:35.533  INFO 5608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 14:08:35.533  INFO 5608 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1300 ms
+2019-12-06 14:08:35.753  INFO 5608 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 14:08:35.840  WARN 5608 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-12-06 14:08:35.948  INFO 5608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-06 14:08:35.991  INFO 5608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-06 14:08:35.993  INFO 5608 --- [restartedMain] com.canon.base.run.Main                  : Started Main in 2.229 seconds (JVM running for 2.602)
+2019-12-06 14:08:42.233  INFO 5608 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-06 14:08:42.233  INFO 5608 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-06 14:08:42.237  INFO 5608 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-12-06 14:09:22.837  INFO 5608 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-06 14:09:23.070  INFO 5608 --- [restartedMain] com.canon.base.run.Main                  : Starting Main on 755DDC025774 with PID 5608 (E:\IDEA_WK\project_test\five-bitch\target\classes started by 0227544 in E:\IDEA_WK\project_test\five-bitch)
+2019-12-06 14:09:23.070  INFO 5608 --- [restartedMain] com.canon.base.run.Main                  : No active profile set, falling back to default profiles: default
+2019-12-06 14:09:23.356  INFO 5608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-12-06 14:09:23.357  INFO 5608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 14:09:23.357  INFO 5608 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-06 14:09:23.371  INFO 5608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 14:09:23.372  INFO 5608 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 300 ms
+2019-12-06 14:09:23.421  INFO 5608 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 14:09:23.439  WARN 5608 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-12-06 14:09:23.464  INFO 5608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-06 14:09:23.475  INFO 5608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-12-06 14:09:23.476  INFO 5608 --- [restartedMain] com.canon.base.run.Main                  : Started Main in 0.465 seconds (JVM running for 50.084)
+2019-12-06 14:09:23.478  INFO 5608 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-12-06 14:09:31.185  INFO 5608 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-06 14:09:31.187  INFO 5608 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-06 14:09:31.195  INFO 5608 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
