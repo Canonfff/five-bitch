@@ -14,7 +14,7 @@ public interface IModel extends Serializable {
     void setCreationDate(LocalDate creationDate);
     void setLastUpdateDate(LocalDate lastUpdateDate);
     void setLastUpdateBy(Long lastUpdateBy);
-    void setCteationBy(Long cteationBy);
+    void setCreationBy(Long cteationBy);
     void setVersion(Integer version);
     void setSystemId(Integer systemId);
 

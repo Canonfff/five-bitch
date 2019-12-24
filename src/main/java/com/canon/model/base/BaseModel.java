@@ -18,7 +18,7 @@ public class BaseModel implements IModel {
 
     private Long lastUpdateBy;
 
-    private Long cteationBy;
+    private Long creationBy;
 
     private Integer version;
 
@@ -54,13 +54,13 @@ public class BaseModel implements IModel {
         this.lastUpdateBy = lastUpdateBy;
     }
 
-    public Long getCteationBy() {
-        return cteationBy;
+    public Long getCreationBy() {
+        return creationBy;
     }
 
     @Override
-    public void setCteationBy(Long cteationBy) {
-        this.cteationBy = cteationBy;
+    public void setCreationBy(Long creationBy) {
+        this.creationBy = creationBy;
     }
 
     public Integer getVersion() {
