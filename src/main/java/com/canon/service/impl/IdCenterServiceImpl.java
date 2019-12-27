@@ -2,6 +2,7 @@ package com.canon.service.impl;
 
 import com.canon.model.platform.IdCenter;
 import com.canon.service.IIdCenterService;
+import com.canon.service.dao.IdCenterMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -23,9 +24,19 @@ public class IdCenterServiceImpl implements IIdCenterService {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
+    @Autowired
+    IdCenterMapper idCenterMapper;
+
     @Override
     public List<IdCenter> findAll() {
 
         return jdbcTemplate.query("select * from t_idcenter", new BeanPropertyRowMapper<IdCenter>(IdCenter.class));
     }
+
+    @Override
+    public List<IdCenter> findAll2() {
+        return idCenterMapper.findAll(1L);
+    }
+
+
 }

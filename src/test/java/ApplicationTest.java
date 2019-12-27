@@ -1,7 +1,8 @@
 import com.alibaba.fastjson.JSON;
+import com.canon.base.dao.BaseMapper;
 import com.canon.base.run.Main;
 import com.canon.model.platform.IdCenter;
-import com.canon.model.platform.IdCenterRepository;
+import com.canon.service.dao.IdCenterMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -33,9 +35,15 @@ public class ApplicationTest {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @Autowired
-    IdCenterRepository idCenterRepository;
+//    @Resource
+//    IIdCenterService iIdCenterService;
 
+    @Resource
+    IdCenterMapper idCenterMapper;
+
+
+    @Autowired
+    BaseMapper<IdCenter> baseMapper;
     @Test
     public void demo()  throws SQLException {
         Connection connection = dataSource.getConnection();
@@ -59,8 +67,14 @@ public class ApplicationTest {
 
     @Test
     public void useJPA() {
-        Iterable<IdCenter> all = idCenterRepository.findAll();
+        Iterable<IdCenter> all = idCenterMapper.findAll(1L);
         System.out.println(JSON.toJSONString(all));
+    }
+
+    @Test
+    public void findByBase() {
+        IdCenter idCenter = baseMapper.selectById(1L);
+        System.out.println(JSON.toJSONString(idCenter));
     }
 
 }

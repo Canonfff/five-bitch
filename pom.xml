@@ -16,6 +16,7 @@
         <guava.version>28.1-jre</guava.version>
         <mysql.version>5.1.38</mysql.version>
         <druid.version>1.1.10</druid.version>
+        <mybatis-spring-boot>2.1.0</mybatis-spring-boot>
     </properties>
 
     <dependencyManagement>
@@ -113,6 +114,13 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Spring Boot Mybatis 依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot}</version>
         </dependency>
 
     </dependencies>

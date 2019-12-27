@@ -1,11 +1,8 @@
 package com.canon.model.platform;
 
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.util.Date;
 
 /**
  * @program: five-bitch
@@ -13,17 +10,14 @@ import java.time.LocalDate;
  * @Date: 2019/12/9 16:22
  * @Description:
  */
-@Entity
-@Table(name = "t_idcenter")
 public class IdCenter implements Serializable {
 
-    @Id
     private Long id;
     private String app;
     private String tableName;
     private Long cindex;
-    private LocalDate createtime;
-    private LocalDate updatetime;
+    private Date createtime;
+    private Date updatetime;
     private String keypre;
     private Integer fstep;
     private Long dbid;
@@ -60,19 +54,19 @@ public class IdCenter implements Serializable {
         this.cindex = cindex;
     }
 
-    public LocalDate getCreatetime() {
+    public Date getCreatetime() {
         return createtime;
     }
 
-    public void setCreatetime(LocalDate createtime) {
+    public void setCreatetime(Date createtime) {
         this.createtime = createtime;
     }
 
-    public LocalDate getUpdatetime() {
+    public Date getUpdatetime() {
         return updatetime;
     }
 
-    public void setUpdatetime(LocalDate updatetime) {
+    public void setUpdatetime(Date updatetime) {
         this.updatetime = updatetime;
     }
 

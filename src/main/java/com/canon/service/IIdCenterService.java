@@ -14,5 +14,5 @@ public interface IIdCenterService {
 
     List<IdCenter> findAll();
 
-
+    List<IdCenter> findAll2();
 }
