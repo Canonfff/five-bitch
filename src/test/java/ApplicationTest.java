@@ -2,7 +2,9 @@ import com.alibaba.fastjson.JSON;
 import com.canon.base.dao.BaseMapper;
 import com.canon.base.run.Main;
 import com.canon.model.platform.IdCenter;
+import com.canon.model.platform.User;
 import com.canon.service.dao.IdCenterMapper;
+import com.canon.service.dao.UserDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -75,6 +77,15 @@ public class ApplicationTest {
     public void findByBase() {
         IdCenter idCenter = baseMapper.selectById(1L);
         System.out.println(JSON.toJSONString(idCenter));
+    }
+
+    @Autowired
+    UserDao userDao;
+
+    @Test
+    public void selectList() {
+        List<User> users = userDao.selectList("canon");
+        System.out.println(JSON.toJSONString(users));
     }
 
 }

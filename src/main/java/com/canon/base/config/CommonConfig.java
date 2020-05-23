@@ -24,10 +24,10 @@ public class CommonConfig {
      * JSON
      * @return
      */
-    @Bean
-    public HttpMessageConverters httpMessageConverter() {
-        BaseHttpMessageConverters baseHttpMessageConverters = new BaseHttpMessageConverters();
-        HttpMessageConverter<?> converter = baseHttpMessageConverters;
-        return new HttpMessageConverters(converter);
-    }
+    //@Bean
+//    public HttpMessageConverters httpMessageConverter() {
+//        BaseHttpMessageConverters baseHttpMessageConverters = new BaseHttpMessageConverters();
+//        HttpMessageConverter<?> converter = baseHttpMessageConverters;
+//        return new HttpMessageConverters(converter);
+//    }
 }
