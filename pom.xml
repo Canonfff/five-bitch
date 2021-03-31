@@ -13,7 +13,7 @@
         <jdk.version>1.8</jdk.version>
         <spring-boot-starter.version>2.1.2.RELEASE</spring-boot-starter.version>
         <fastJson.version>1.2.62</fastJson.version>
-        <guava.version>28.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <mysql.version>5.1.38</mysql.version>
         <druid.version>1.1.10</druid.version>
         <mybatis-spring-boot>2.1.0</mybatis-spring-boot>
